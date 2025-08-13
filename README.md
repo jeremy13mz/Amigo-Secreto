@@ -1,2 +1,2 @@
-# Amigo-Secreto
-Reto Alura del amigo Secreto
+# Amigo_Secreto
+Reto UNO

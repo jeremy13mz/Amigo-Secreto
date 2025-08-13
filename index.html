@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amigo Secreto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Panel del juego (izquierda) -->
+    <div class="card">
+      <h1 class="title">Amigo Secreto</h1>
+
+      <div class="input-group">
+        <input type="text" id="amigo" placeholder="Escribe un nombre...">
+        <button id="btnAdd">Añadir</button>
+      </div>
+
+      <div class="list-box">
+        <h2>Participantes</h2>
+        <ul id="listaAmigos"></ul>
+      </div>
+
+      <div class="result-box">
+        <h2 id="result-label">Resultado</h2>
+        <div class="secreto-container">
+          <span id="secreto" class="secreto">—</span>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="btnDraw" disabled>Sortear</button>
+        <button id="btnReset" disabled>Reiniciar</button>
+      </div>
+    </div>
+
+    <!-- Imagen Pokémon (derecha) -->
+    <div class="character">
+      <img src="assets/pokemon.jpg" alt="Pokemon">
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
